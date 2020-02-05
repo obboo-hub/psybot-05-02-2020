@@ -1,0 +1,28 @@
+
+<h1 class="titre"> تشاتبوت</h1>
+
+
+<div id="chatbox" >
+  
+    <div #scrollMe class="msg-scroll">
+
+<ng-container *ngFor="let message of messages | async">
+
+  <div class="message" [ngClass]="{ 'from': message.sentBy === 'bot',
+                                    'to':   message.sentBy === 'user' }">
+    {{ message.content }}
+  </div>
+
+</ng-container>
+</div>
+</div>
+<div class="dd">
+<label for="nameField">اكتب رسالتك</label>
+
+
+<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"  placeholder="رسالتك" id="input" autofocus><br>
+
+<button (click)="sendMessage()" class="button" style="background-color: #45d6b1;">ارسل</button>
+
+
+</div>

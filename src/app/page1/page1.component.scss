@@ -1,0 +1,384 @@
+
+  #btn-login {
+    position: absolute;
+    padding: 2px 20px;
+    right: 20px;
+    float: right;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    background: #0FA187;
+  }
+  .btn-login input,
+  .btn-login button:visited {
+    color: #463f3f;
+    text-decoration: none;
+  }
+  
+  .divtext h5{
+    position: absolute;
+    width: 388px;
+    height: 168px;
+    left: 180px;
+    top: 183px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFDFD;
+    
+
+  }
+  .divtext #button{
+    position: absolute;
+    padding: 15px 32px;
+    top: 434px;
+    left: 335px;
+border-radius: 10px;
+
+  border: none;
+  color:#21D2C8;;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  
+.divimg{
+  position: absolute;
+  width: 550px;
+  height: 347px;
+  left: 800px;
+  top: 140px;
+  
+  background: #21D2C8;
+  
+  
+  }
+.box{
+  top: 8%;
+height: 100%;
+width: 100%;
+  background-color :  #21D2C8;
+}
+
+.boxQ{
+  top: 8%;
+height: 100%;
+width: 100%;
+background-color :  #F5F5F5;
+
+
+}
+
+.container {
+  position: absolute;
+  width: 430px;
+  height: 347px;
+  left: 200px;
+  right: 663px;
+  top: 116px;
+  
+  background: #FFFFFF;
+  border-radius: 20px;
+  
+  
+  }
+  .hide {
+    display: none;
+  }
+  p {
+    font-weight: bold;
+  }
+  
+  .div1{
+  position: absolute;
+  width: 430px;
+  height: 347px;
+  left: 690px;
+  top: 116px;
+  
+  background: #ffffff;
+  border-radius: 20px;
+  
+  }
+  
+  
+  
+  #img{
+    position: absolute;
+  width: 96px;
+  height: 92px;
+  left: 22px;
+  top: 38px;
+  
+  
+  background-blend-mode: normal;
+  }
+  
+  #question {
+    position: absolute;
+width: 420px;
+height: 64px;
+
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+  }
+  .boxQ #rep1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 59px;
+    top: 124px;
+    
+    background: #FFFEFE;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+  }
+  .boxQ #rep2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 59px;
+    top: 160px;
+    
+    background: #FFFEFE;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+  }
+  .boxQ #rep3{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 59px;
+top: 202px;
+
+background: #FFFEFE;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+  }
+  .boxQ #op1{
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:97px;
+    top: 90px;
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+
+  }
+  .boxQ #op2{
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:97px;
+    top: 130px;
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+
+  }
+  .boxQ #op3{
+    
+    position: absolute;
+width: 20px;
+height: 20px;
+left:97px;
+top: 175px;
+
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+
+  }
+  .boxQ #selectlist{
+    position: absolute;
+width: 318px;
+height: 36px;
+left: 56px;
+top: 114px;
+
+background: #FFFEFE;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+  }
+  .boxQ #butNext{
+    position: absolute;
+width: 383px;
+height: 76px;
+left: 30px;
+top: 130px;
+
+background: #10BD9E;
+border-radius: 20px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFEFE;
+  }
+  
+  .divimg h2{
+  
+  position: absolute;
+  width: 207px;
+  height: 47px;
+  left: 136px;
+  top: 40px;
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFEFE;
+  }
+  
+  .divimg h3{
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  left: 23px;
+  top: 161px;
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFDFD;
+  }
+  .divimg h4{
+  position: absolute;
+  width: 351px;
+  height: 72px;
+  left: 39px;
+  top: 204px;
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFCFC;
+  }
+  
+  .boxQuiz h1{
+    position: absolute;
+  width: 454px;
+  height: 32px;
+  left: 549px;
+  top: 37px;
+  
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+  }
+.boxQuiz{
+  top: 70px;
+  position: absolute;
+}
+
+
+  
+  
+  body {
+    
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: -8px;
+    top: 10%;
+    
+    overflow-x: hidden;
+
+    }
+    
+  
